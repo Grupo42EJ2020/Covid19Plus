@@ -4,16 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Pia Desarrollo de Software</title>
+    <title>Tema</title>
 </head>
 <body>
-    <h1>
-    PIA 👍
+        <h1>Tema</h1>
         <br />
-        Bienvenido
+        <p>¿Que desea hacer?</p>
         <br />
+        <a href="/Apartado/Index">Regresar a los Apartados</a>
         <br />
-         <a href="/Apartado/Index">Apartados</a>
-    </h1>
+        <a href="/Tema/Tema"> Ver Temas de la Base de Datos </a>
+
 </body>
 </html>
