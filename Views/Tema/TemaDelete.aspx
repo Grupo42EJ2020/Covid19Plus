@@ -7,7 +7,7 @@
     <title>TemaDelete</title>
 </head>
 <body>
-    <h3>¿Estas seguro de borrar este Tema?</h3>
+    <h3>¿Estas seguro de borrar este Video?</h3>
     <fieldset>
         <legend>Datos</legend>
         
@@ -20,7 +20,7 @@
     </fieldset>
     <% using (Html.BeginForm()) { %>
         <p>
-		    <input type="submit" value="Borrar" /> |
+		    <input type="submit" value="Eliminar" /> |
             <br />
 		    <%: Html.ActionLink("Regresar al apartado Tema", "Tema") %>
         </p>

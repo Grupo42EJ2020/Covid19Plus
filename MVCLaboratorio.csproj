@@ -69,13 +69,17 @@
     <Compile Include="Controllers\ApartadoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TemaController.cs" />
+    <Compile Include="Controllers\VideoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Curso_Tema_Video.cs" />
     <Compile Include="Models\ITema.cs" />
+    <Compile Include="Models\IVideo.cs" />
     <Compile Include="Models\RepositorioTema.cs" />
+    <Compile Include="Models\RepositorioVideo.cs" />
     <Compile Include="Models\Tema.cs" />
+    <Compile Include="Models\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
@@ -84,12 +88,18 @@
     <Content Include="Content\Site.css" />
     <Content Include="Views\Apartado\Index.aspx" />
     <Content Include="Views\Apartado\Tema.aspx" />
+    <Content Include="Views\Apartado\Video.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Tema\Tema.aspx" />
     <Content Include="Views\Tema\TemaCreate.aspx" />
     <Content Include="Views\Tema\TemaDelete.aspx" />
     <Content Include="Views\Tema\TemaDetails.aspx" />
     <Content Include="Views\Tema\TemaEdit.aspx" />
+    <Content Include="Views\Video\Video.aspx" />
+    <Content Include="Views\Video\VideoCreate.aspx" />
+    <Content Include="Views\Video\VideoDelete.aspx" />
+    <Content Include="Views\Video\VideoDetails.aspx" />
+    <Content Include="Views\Video\VideoEdit.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

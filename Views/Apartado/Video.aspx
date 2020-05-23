@@ -4,15 +4,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>Video</title>
 </head>
 <body>
-    <h1>Lista de Apartados </h1>  
-    <hr /> 
-         <a href="/Apartado/Video">Video</a>
-    <br />
-         <a href="/Apartado/Tema">Tema</a>
-    <br />
-         <a href="/Home/Index">Regresar</a>
+  <h1>Video</h1>
+        <br />
+        <p>¿Que desea hacer?</p>
+        <br />
+        <a href="/Apartado/Index">Regresar a los Apartados</a>
+        <br />
+        <a href="/Video/Video"> Ver Videos de la Base de Datos </a>
+
+
 </body>
 </html>
