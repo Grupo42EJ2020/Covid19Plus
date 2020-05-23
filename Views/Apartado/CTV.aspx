@@ -4,17 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>CTV</title>
 </head>
 <body>
-    <h1>Lista de Apartados </h1>  
-    <hr /> 
-         <a href="/Apartado/Video">Video</a>
-    <br />
-         <a href="/Apartado/Tema">Tema</a>
-     <br />
-         <a href="/Apartado/CTV">Curso Tema Video</a>
-    <br />
-         <a href="/Home/Index">Regresar</a>
+    <h1>CURSO TEMA VIDEO</h1>
+        <br />
+        <p>¿Que desea hacer?</p>
+        <br />
+        <a href="/Apartado/Index">Regresar a los Apartados</a>
+        <br />
+        <a href="/Curso_Tema_Video/CTV"> Ver Cursos Temas Videos de la Base de Datos </a>
 </body>
 </html>
