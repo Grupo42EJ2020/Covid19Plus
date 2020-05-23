@@ -12,6 +12,8 @@
          <a href="/Apartado/Video">Video</a>
     <br />
          <a href="/Apartado/Tema">Tema</a>
+     <br />
+         <a href="/Apartado/CTV">Curso Tema Video</a>
     <br />
          <a href="/Home/Index">Regresar</a>
     <br />
