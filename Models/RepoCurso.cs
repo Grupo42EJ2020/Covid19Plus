@@ -9,13 +9,7 @@ using System.Data.SqlClient;
 
 namespace MVCLaboratorio.Models
 {
-<<<<<<< HEAD
-    public class RepoCurso : ICurso
-    {   
-=======
-    public class RepoCurso : Curso
-    {
->>>>>>> 42ad157c39de867011ff1177a6b0ef268ce3e5d7
+    public class RepoCurso : ICurso{
         public List<Curso> obtenerCurso()
         {
             //funcionalidad
@@ -28,12 +22,9 @@ namespace MVCLaboratorio.Models
                 Curso CursoAux = new Curso();
                 CursoAux.IdCurso = int.Parse(item["IdCurso"].ToString());
                 CursoAux.Descripcion = item["Descripcion"].ToString();
-<<<<<<< HEAD
                 CursoAux.IdEmpleado = int.Parse(item["IdEmpleado"].ToString());
-=======
-                
->>>>>>> 42ad157c39de867011ff1177a6b0ef268ce3e5d7
-                lstCurso.Add(CursoAux);
+              
+              lstCurso.Add(CursoAux);
             }
 
             return lstCurso;
@@ -52,11 +43,8 @@ namespace MVCLaboratorio.Models
             if (dtCurso.Rows.Count>0)
             {
                 datosCurso.IdCurso = int.Parse(dtCurso.Rows[0]["IdCurso"].ToString());
-<<<<<<< HEAD
                 datosCurso.Descripcion = dtCurso.Rows[0]["Descripcion"].ToString();
                 datosCurso.IdEmpleado = int.Parse(dtCurso.Rows[0]["IdEmpleado"].ToString());
-=======
->>>>>>> 42ad157c39de867011ff1177a6b0ef268ce3e5d7
                 return datosCurso;
             }
             else
@@ -85,11 +73,7 @@ namespace MVCLaboratorio.Models
         public void actualizarCurso(Curso datosCurso)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
-<<<<<<< HEAD
             parametros.Add(new SqlParameter("@IdCurso",datosCurso.IdCurso));
-=======
-           // parametros.Add(new SqlParameter("@IdCurso",datosCurso.IdCurso));
->>>>>>> 42ad157c39de867011ff1177a6b0ef268ce3e5d7
             parametros.Add(new SqlParameter("@Descripcion", datosCurso.Descripcion));
             parametros.Add(new SqlParameter("@IdEmpleado", datosCurso.IdEmpleado));
 

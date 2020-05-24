@@ -24,19 +24,17 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
-<<<<<<< HEAD
-=======
+
         public ActionResult Empleado()
         {
             return View();
         }
->>>>>>> 42ad157c39de867011ff1177a6b0ef268ce3e5d7
+
         public ActionResult Curso()
         {
             return View();
         }
-<<<<<<< HEAD
-=======
+
         public ActionResult CTV()
         {
             return View();
@@ -45,7 +43,7 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
->>>>>>> 42ad157c39de867011ff1177a6b0ef268ce3e5d7
+
     }
 }
 
