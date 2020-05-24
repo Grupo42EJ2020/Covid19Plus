@@ -36,6 +36,10 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult CT()
+        {
+            return View();
+        }
     }
 }
 

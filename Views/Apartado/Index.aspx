@@ -19,6 +19,8 @@
     <br />
         <a href="/Apartado/Curso">Curso</a>
     <br />
+         <a href="/Apartado/CT">Curso Tema</a>
+    <br />
          <a href="/Home/Index">Regresar</a>
 
 </body>
