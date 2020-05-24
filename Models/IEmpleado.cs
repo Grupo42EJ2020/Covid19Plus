@@ -8,7 +8,7 @@ namespace MVCLaboratorio.Models
     public interface IEmpleado
     {
         List<Empleado> obtenerEmpleado();
-        Tema obtenerEmpleado(int IdEmpleado);
+        Empleado obtenerEmpleado(int IdEmpleado);
         void insertarEmpleado(Empleado datosEmpleado);
         void eliminarEmpleado(int IdEmpleado);
         void actualizarEmpleado(Empleado datosEmpleado);

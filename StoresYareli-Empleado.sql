@@ -1,14 +1,15 @@
 use piadsf1
 
 CREATE PROCEDURE sp_Empleado_Insertar
-	@IdEmpleado int,
 	@Nombre varchar(50),
 	@Direccion varchar(80)
 AS
 BEGIN
-	INSERT INTO Empleado (IdEmpleado,Nombre,Direccion)
-	VALUES (@IdEmpleado,@Nombre,@Direccion)
+	INSERT INTO Empleado (Nombre,Direccion)
+	VALUES (@Nombre,@Direccion)
 END;
+
+
 
 CREATE PROCEDURE sp_Empleado_ConsultarTodo
 AS

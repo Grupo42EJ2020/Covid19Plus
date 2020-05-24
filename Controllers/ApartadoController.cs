@@ -28,5 +28,14 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult Curso()
+        {
+            return View();
+        }
+        public ActionResult CTV()
+        {
+            return View();
+        }
     }
 }
+

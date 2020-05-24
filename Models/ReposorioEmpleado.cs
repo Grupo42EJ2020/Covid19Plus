@@ -87,10 +87,5 @@ namespace MVCLaboratorio.Models
 
         }
 
-
-        Tema IEmpleado.obtenerEmpleado(int IdEmpleado)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

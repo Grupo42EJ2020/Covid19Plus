@@ -68,17 +68,24 @@
   <ItemGroup>
     <Compile Include="Controllers\ApartadoController.cs" />
     <Compile Include="Controllers\EmpleadoController.cs" />
+    <Compile Include="Controllers\CursoController.cs" />
+    <Compile Include="Controllers\Curso_Tema_VideoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TemaController.cs" />
     <Compile Include="Controllers\VideoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Curso_Tema_Video.cs" />
+    <Compile Include="Models\Curso.cs" />
     <Compile Include="Models\Empleado.cs" />
     <Compile Include="Models\IEmpleado.cs" />
-    <Compile Include="Models\ITema.cs" />
+    <Compile Include="Models\ICurso.cs" />
     <Compile Include="Models\IVideo.cs" />
+    <Compile Include="Models\RepoCurso.cs" />
+    <Compile Include="Models\CTV.cs" />
+    <Compile Include="Models\ICTV.cs" />
+    <Compile Include="Models\ITema.cs" />
+    <Compile Include="Models\RepositorioCurso_Tema_Video.cs" />
     <Compile Include="Models\RepositorioTema.cs" />
     <Compile Include="Models\RepositorioVideo.cs" />
     <Compile Include="Models\ReposorioEmpleado.cs" />
@@ -99,6 +106,24 @@
     <Content Include="Views\Empleado\EmpleadoDelete.aspx" />
     <Content Include="Views\Empleado\EmpleadoDetails.aspx" />
     <Content Include="Views\Empleado\EmpleadoEdit.aspx" />
+    <Content Include="Views\Apartado\Curso.aspx" />
+    <Content Include="Views\Apartado\Index.aspx" />
+    <Content Include="Views\Apartado\Tema.aspx" />
+    <Content Include="Views\Apartado\Video.aspx" />
+    <Content Include="Views\Curso\Curso.aspx" />
+    <Content Include="Views\Curso\CursoCreate.aspx" />
+    <Content Include="Views\Curso\CursoDelete.aspx" />
+    <Content Include="Views\Curso\CursoDetails.aspx" />
+    <Content Include="Views\Curso\CursoEdit.aspx" />
+    <Content Include="Views\Apartado\CTV.aspx" />
+    <Content Include="Views\Apartado\Index.aspx" />
+    <Content Include="Views\Apartado\Tema.aspx" />
+    <Content Include="Views\Apartado\Video.aspx" />
+    <Content Include="Views\Curso_Tema_Video\CTV.aspx" />
+    <Content Include="Views\Curso_Tema_Video\CTVCreate.aspx" />
+    <Content Include="Views\Curso_Tema_Video\CTVDelete.aspx" />
+    <Content Include="Views\Curso_Tema_Video\CTVDetails.aspx" />
+    <Content Include="Views\Curso_Tema_Video\VideoEdit.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Tema\Tema.aspx" />
     <Content Include="Views\Tema\TemaCreate.aspx" />
