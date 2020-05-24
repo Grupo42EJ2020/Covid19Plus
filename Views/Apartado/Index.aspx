@@ -9,10 +9,13 @@
 <body>
     <h1>Lista de Apartados </h1>  
     <hr /> 
+         <a href="/Apartado/Empleado">Empleado</a>
+    <br />
          <a href="/Apartado/Video">Video</a>
     <br />
          <a href="/Apartado/Tema">Tema</a>
     <br />
          <a href="/Home/Index">Regresar</a>
+
 </body>
 </html>

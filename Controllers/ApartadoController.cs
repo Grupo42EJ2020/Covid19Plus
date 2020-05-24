@@ -24,5 +24,9 @@ namespace MVCLaboratorio.Controllers
         {
             return View();
         }
+        public ActionResult Empleado()
+        {
+            return View();
+        }
     }
 }
