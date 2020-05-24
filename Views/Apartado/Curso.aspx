@@ -4,18 +4,18 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>Curso</title>
 </head>
 <body>
-    <h1>Lista de Apartados </h1>  
-    <hr /> 
-         <a href="/Apartado/Video">Video</a>
+    <center>
+    <h1>
+    BIENVENIDO A SUS CURSOS!!
+    </h1>
     <br />
-         <a href="/Apartado/Tema">Tema</a>
-    <br />
-         <a href="/Home/Index">Regresar</a>
-    <br />
-        <a href="/Apartado/Curso">Curso</a>
+        <a href="/Apartado/Index">REGRESAR AL MENU PRINCIPAL</a>
+        <br />
+        <a href="/Curso/Curso">VER CURSOS DE LA BASE DE DATOS</a>
+    </center>
 
 </body>
 </html>
