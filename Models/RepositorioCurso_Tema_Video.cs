@@ -22,7 +22,9 @@ namespace MVCLaboratorio.Models
             foreach (DataRow item in dtCTV.Rows)
             {
                 CTV CTVAux = new CTV();
-                CTVAux.IdCTV = int.Parse(item["IdCTV"].ToString());              
+                CTVAux.IdCTV = int.Parse(item["IdCTV"].ToString());
+                CTVAux.IdCT = int.Parse(item["IdCT"].ToString());
+                CTVAux.IdVideo = int.Parse(item["IdVideo"].ToString());
 
                 lstCTV.Add(CTVAux);
             }
@@ -45,6 +47,8 @@ namespace MVCLaboratorio.Models
             if (dtCTV.Rows.Count > 0)
             {
                 datosCTV.IdCTV = int.Parse(dtCTV.Rows[0]["IdCTV"].ToString());
+                datosCTV.IdCT = int.Parse(dtCTV.Rows[0]["IdCT"].ToString());
+                datosCTV.IdVideo = int.Parse(dtCTV.Rows[0]["IdVideo"].ToString());
                 
                 return datosCTV;
             }
@@ -78,6 +82,7 @@ namespace MVCLaboratorio.Models
         {
 
             List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdCTV", datosCTV.IdCTV));
             parametros.Add(new SqlParameter("@IdCT", datosCTV.IdCT));
             parametros.Add(new SqlParameter("@IdVideo", datosCTV.IdVideo));
 

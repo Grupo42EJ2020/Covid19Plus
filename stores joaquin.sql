@@ -19,6 +19,7 @@ BEGIN
 	VALUES(@IdCT,@IdVideo)
 END;
 
+drop proc sp_CTV_Insertar
 
 CREATE PROCEDURE sp_CTV_Eliminar
 	@IdCTV int
@@ -57,4 +58,4 @@ BEGIN
 END;
 
 
-Drop procedure "sp_CTV_Actualizar"	
+Drop procedure "sp_CTV_Insertar"	
