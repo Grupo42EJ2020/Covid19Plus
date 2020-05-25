@@ -10,7 +10,7 @@ namespace MVCLaboratorio.Models
         List<CTV> obtenerCTV();
         CTV obtenerCTV(int IdCTV);
         void insertarCTV(CTV datosCTV);
-        void eliminarCTV(int idCTV);
+        void eliminarCTV(int IdCTV);
         void actualizarCTV(CTV datosCTV);
     }
 }

@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Data;
 using MVCLaboratorio.Utilerias;
 using MVCLaboratorio.Models;
+using System;
 
 namespace MVCLaboratorio.Controllers
 {
@@ -15,6 +16,7 @@ namespace MVCLaboratorio.Controllers
 
         public ActionResult Index()
         {
+            System.Diagnostics.Debug.WriteLine("que onda pa");
             return View();
         }
         public ActionResult CTV()
@@ -22,34 +24,35 @@ namespace MVCLaboratorio.Controllers
             return View(repoCTV.obtenerCTV());
         }
 
-        public ActionResult CTVDelete(int IdCTV)
+        public ActionResult CTVDelete(int id)
         {
-            return View(repoCTV.obtenerCTV(IdCTV));
+
+            return View(repoCTV.obtenerCTV(id));
         }
 
         [HttpPost]
-        public ActionResult CTVDelete(int IdCTV, FormCollection datos)
+        public ActionResult CTVDelete(int id, FormCollection datos)
         {
-            repoCTV.eliminarCTV(IdCTV);
+            repoCTV.eliminarCTV(id);
 
             return RedirectToAction("CTV");
         }
 
-        public ActionResult CTVDetails(int IdCTV)
+        public ActionResult CTVDetails(int id)
         {
-            return View(repoCTV.obtenerCTV(IdCTV));
+            return View(repoCTV.obtenerCTV(id));
         }
 
-        public ActionResult CTVEdit(int IdCTV)
+        public ActionResult CTVEdit(int id)
         {
-            return View(repoCTV.obtenerCTV(IdCTV));
+            return View(repoCTV.obtenerCTV(id));
         }
 
 
         [HttpPost]
-        public ActionResult VideoEdit(int IdCTV, CTV datosCTV)
+        public ActionResult VideoEdit(int id, CTV datosCTV)
         {
-            datosCTV.IdCTV = IdCTV;
+            datosCTV.IdCTV = id;
             repoCTV.actualizarCTV(datosCTV);
 
             return RedirectToAction("CTV");

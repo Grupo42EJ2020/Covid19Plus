@@ -15,29 +15,24 @@ namespace MVCLaboratorio.Models
         {
             DataTable dtCTV;
             dtCTV = BaseHelper.ejecutarConsulta("sp_CTV_ConsultarTodo", CommandType.StoredProcedure);
-
             List<CTV> lstCTV = new List<CTV>();
-
-
             foreach (DataRow item in dtCTV.Rows)
             {
                 CTV CTVAux = new CTV();
                 CTVAux.IdCTV = int.Parse(item["IdCTV"].ToString());
                 CTVAux.IdCT = int.Parse(item["IdCT"].ToString());
                 CTVAux.IdVideo = int.Parse(item["IdVideo"].ToString());
-
                 lstCTV.Add(CTVAux);
             }
-
             return lstCTV;
         }
 
 
-        public CTV obtenerCTV(int IdCTV)
+        public CTV obtenerCTV(int id)
         {
             DataTable dtCTV;
             List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdCTV", IdCTV));
+            parametros.Add(new SqlParameter("@IdCTV", id));
 
             dtCTV = BaseHelper.ejecutarConsulta("sp_CTV_ConsultarPorID", CommandType.StoredProcedure, parametros);
 
