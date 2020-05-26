@@ -4,11 +4,6 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-<meta charset="UTF-8"></meta> 
-<meta name="description" content="Editar de CT"></meta>
-<meta name="keywords" content="Editar,CT"></meta>
-<meta name="author" content="Mauricio Hernandez Rangel"></meta>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <title>CursoTemaEdit</title>
 </head>
 <body>
@@ -18,7 +13,14 @@
         <fieldset>
             <legend>Fields</legend>
             
-           
+            <div class="editor-label">
+                <%: Html.LabelFor(model => model.IdCT) %>
+            </div>
+            <div class="editor-field">
+                <%: Html.TextBoxFor(model => model.IdCT) %>
+                <%: Html.ValidationMessageFor(model => model.IdCT) %>
+            </div>
+            
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.idCurso) %>
             </div>
@@ -36,7 +38,7 @@
             </div>
             
             <p>
-                <input type="submit" value="Editar" />
+                <input type="submit" value="Guardar" />
             </p>
         </fieldset>
 

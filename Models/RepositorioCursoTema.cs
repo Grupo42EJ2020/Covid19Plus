@@ -85,6 +85,7 @@ namespace MVCLaboratorio.Models
         {
 
             List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@idCT", datosCursoTema.IdCT));
             parametros.Add(new SqlParameter("@idCurso", datosCursoTema.idCurso));
             parametros.Add(new SqlParameter("@idTema", datosCursoTema.idTema));
 

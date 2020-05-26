@@ -108,6 +108,7 @@
     <Content Include="Views\Apartado\CT.aspx" />
     <Content Include="Views\Apartado\Empleado.aspx" />
     <Content Include="Views\Apartado\CTV.aspx" />
+    <Content Include="Views\CursoTema\CursoTemaEdit.aspx" />
     <Content Include="Views\Curso\Curso.aspx" />
     <Content Include="Views\Curso\CursoCreate.aspx" />
     <Content Include="Views\Curso\CursoDelete.aspx" />
@@ -117,7 +118,6 @@
     <Content Include="Views\CursoTema\CursoTemaCreate.aspx" />
     <Content Include="Views\CursoTema\CursoTemaDelete.aspx" />
     <Content Include="Views\CursoTema\CursoTemaDetails.aspx" />
-    <Content Include="Views\CursoTema\CursoTemaEdit.aspx" />
     <Content Include="Views\Empleado\Empleado.aspx" />
     <Content Include="Views\Empleado\EmpleadoCreate.aspx" />
     <Content Include="Views\Empleado\EmpleadoDelete.aspx" />

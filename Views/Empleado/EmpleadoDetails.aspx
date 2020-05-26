@@ -26,7 +26,7 @@
         
     </fieldset>
     <p>
-        <%: Html.ActionLink("Editar", "VideoEdit", new {  id=Model.IdEmpleado }) %> |
+        <%: Html.ActionLink("Editar", "EmpleadoEdit", new {  id=Model.IdEmpleado }) %> |
         <%: Html.ActionLink("Regresar", "Empleado") %>
     </p>
 

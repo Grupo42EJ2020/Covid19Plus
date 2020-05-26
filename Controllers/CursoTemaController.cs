@@ -23,9 +23,9 @@ namespace MVCLaboratorio.Controllers
             return View(RepoCursoTema.obtenerCursoTema());
         }
 
-        public ActionResult CursoTemaDelete(int idCT)
+        public ActionResult CursoTemaDelete(int id)
         {
-            return View(RepoCursoTema.obtenerCursoTema(idCT));
+            return View(RepoCursoTema.obtenerCursoTema(id));
         }
 
         [HttpPost]
