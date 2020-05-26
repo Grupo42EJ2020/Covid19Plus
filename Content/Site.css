@@ -26,3 +26,33 @@
 {
     display: none;
 }
+
+.imgRedonda 
+{
+    width:400px;
+    height:400px;
+    border-radius:100px;
+    border:10px solid #666;
+}
+
+p, 
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}      
+    
