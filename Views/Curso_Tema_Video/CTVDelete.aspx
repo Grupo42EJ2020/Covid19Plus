@@ -4,6 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
+<meta charset="UTF-8"></meta> 
+<meta name="description" content="Eliminar de CTV"></meta>
+<meta name="keywords" content="Eliminar,CTV"></meta>
+<meta name="author" content="Joaquin Flores Alcala"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <title>Eliminar CTV</title>
 </head>
 <body>

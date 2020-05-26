@@ -4,6 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
+<meta charset="UTF-8"></meta> 
+<meta name="description" content="Apartado de Empleado"></meta>
+<meta name="keywords" content="Apartado,Empleado"></meta>
+<meta name="author" content="Yareli Lizet Lucio Corona"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <title>Empleado</title>
 </head>
 <body> 

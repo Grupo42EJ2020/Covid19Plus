@@ -4,6 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
+<meta charset="UTF-8"></meta>
+<meta name="description" content="Detalles Curso"></meta>
+<meta name="keywords" content="Detalles,Curso"></meta>
+<meta name="author" content="Keila Alejandra Castro Hernández"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <title>CursoDetails</title>
 </head>
 <body>
