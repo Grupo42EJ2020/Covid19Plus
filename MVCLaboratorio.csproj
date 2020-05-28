@@ -99,6 +99,13 @@
     <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\curso %281%29.png" />
+    <Content Include="Content\curso.png" />
+    <Content Include="Content\empleado.png" />
+    <Content Include="Content\empleados.png" />
+    <Content Include="Content\formacion.png" />
+    <Content Include="Content\tema.png" />
+    <Content Include="Content\video.png" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Views\Apartado\Curso.aspx" />
