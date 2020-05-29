@@ -53,15 +53,15 @@
    </center>
    <center>
    <p style="color:White;">Equipo de desarrolladores</p>
-       &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image4" runat="server" ImageUrl="~/Images/Mauricio.jpg" Height="95px" Width="95px" />
+       &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image4" runat="server" ImageUrl="~/Content/Mauricio.jpg" Height="95px" Width="95px" />
 
-        &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image5" runat="server" ImageUrl="~/Images/Yareli.jpg" Height="95px" Width="95px" />
+        &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image5" runat="server" ImageUrl="~/Content/Yareli.jpg" Height="95px" Width="95px" />
 
-        &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image6" runat="server" ImageUrl="~/Images/Joaquin.jpg" Height="95px" Width="95px" />
+        &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image6" runat="server" ImageUrl="~/Content/Joaquin.jpg" Height="95px" Width="95px" />
 
-         &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image7" runat="server" ImageUrl="~/Images/Escamilla.jpg" Height="95px" Width="95px" />
+         &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image7" runat="server" ImageUrl="~/Content/Escamilla.jpg" Height="95px" Width="95px" />
 
-          &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image8" runat="server" ImageUrl="~/Images/Keila.jpg" Height="95px" Width="95px" />
+          &nbsp;&nbsp;<asp:Image class="imgRedonda" ID="Image8" runat="server" ImageUrl="~/Content/Keila.jpg" Height="95px" Width="95px" />
       </center>
 </body>
 </html>
