@@ -7,8 +7,8 @@
 font-family: sans-serif; 
 font-size: 50px; 
 font-weight: 400; 
-color: #1640EE; 
-background:#FDFFAD }
+color: #FDFFAD; 
+background:#1640EE}
 </style>
 
 <style type="text/css"">
@@ -47,7 +47,8 @@ background:#FDFFAD }
 <meta name="author" content="Yareli Lizet Lucio Corona"></meta>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
   <center>
-<div class="caja">Empleado</div>
+    <div class="caja">Empleado</div>
+    <br />
 </head>
 
 <body>
@@ -96,4 +97,3 @@ background:#FDFFAD }
 </center>
 </body>
 </html>
-

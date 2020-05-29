@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<MVCLaboratorio.Models.Curso>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+<body style="background-color:#8EC6F2;">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
 <meta charset="UTF-8"></meta>
@@ -11,6 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <title>CursoDelete</title>
 </head>
+<center>
 <body>
     <h3>¿En realidad quiere borrar los Cursos?</h3>
     <fieldset>
@@ -32,7 +33,7 @@
 		    <%: Html.ActionLink("Regresar al Curso", "Curso") %>
         </p>
     <% } %>
-
+</center>
 </body>
 </html>
 

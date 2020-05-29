@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<MVCLaboratorio.Models.Empleado>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<body style="background-color:#E6FFFB;">
+<body style="background-color:#8EC6F2;">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
 <meta charset="UTF-8"></meta> 
@@ -9,9 +9,11 @@
 <meta name="keywords" content="Editar,Empleado"></meta>
 <meta name="author" content="Yareli Lizet Lucio Corona"></meta>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
     <title>Editar Empleado</title>
 </head>
 <body>
+        <center>
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
         
@@ -52,7 +54,6 @@
     <div>
         <%: Html.ActionLink("Regresar", "Empleado") %>
     </div>
-
+    </center>
 </body>
 </html>
-
