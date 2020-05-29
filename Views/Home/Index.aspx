@@ -33,10 +33,10 @@
             <table style="width: 100%; height: 100px; max-height: 100px;">
                 <tr style="width: 100%;">
                     <td style="width: 100%;">
-                        &nbsp;&nbsp;<asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo.png" Height="75px" Width="75px" />
+                        &nbsp;&nbsp;<asp:Image ID="Image1" runat="server" ImageUrl="~/Content/logo.png" Height="75px" Width="75px" />
                     </td>
                     <td style="width: 50%; text-align: right;">
-                        <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/logo2.png" Height="75px" Width="160px" />&nbsp;&nbsp;
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/Content/logo2.png" Height="75px" Width="160px" />&nbsp;&nbsp;
                     </td>
                 </tr>
             </table>
@@ -49,7 +49,7 @@
     </center>
     </td>
     <center>
-         &nbsp;&nbsp;<asp:Image ID="Image3" runat="server" ImageUrl="~/Images/logo3.png" Height="175px" Width="175px" />
+         &nbsp;&nbsp;<asp:Image ID="Image3" runat="server" ImageUrl="~/Content/logo3.png" Height="175px" Width="175px" />
    </center>
    <center>
    <p style="color:White;">Equipo de desarrolladores</p>
